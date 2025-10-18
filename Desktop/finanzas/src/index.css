@@ -1,0 +1,26 @@
+/* src/index.css */
+
+/* Estilos Generales */
+:root {
+    --background-dark: #1e1e2f;
+    --surface-dark: #27293d;
+    --primary-purple: #6a5af9;
+    --primary-purple-hover: #5a4af1;
+    --text-light: #ffffff;
+    --text-muted: #a0a0b8;
+    --green-accent: #28a745;
+    --red-accent: #dc3545;
+    --blue-accent: #007bff;
+    --pink-accent: #e83e8c;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--background-dark);
+    color: var(--text-light);
+}
+
+/* ¡NO MÁS ESTILOS AQUÍ! 
+   Quitamos .app-container, .main-content, .sidebar, etc. de este archivo.
+*/
